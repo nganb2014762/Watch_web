@@ -1,7 +1,5 @@
 import NavBar from "../features/navbar/Navbar";
-import { Link } from "react-router-dom";
-import ProductList from "../features/product-list/components/ProductList";
-
+import ProductList from "../features/product/components/ProductList";
 
 function Home() {
     return ( 
@@ -9,9 +7,7 @@ function Home() {
             <NavBar>
                 <ProductList></ProductList>
             </NavBar>
-            
         </div>
      );
 }
-
 export default Home;
